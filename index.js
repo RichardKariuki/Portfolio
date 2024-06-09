@@ -23,4 +23,4 @@ sr.reveal('.main-btn',{delay:860, origin: 'right'});
 
 sr.reveal('.share',{delay:950, origin: 'bottom'});
 
-sr.reveal('.hpme-img',{delay:1000, origin: 'right'});
+sr.reveal('.home-img',{delay:1000, origin: 'right'});
