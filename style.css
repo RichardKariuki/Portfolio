@@ -57,10 +57,11 @@ header{
 }
 .menu-btn{
     background: linear-gradient(130.08deg,#383528 0%,#191919 100%);
-    box-shadow: 0px 20px40px #00000070;
+    box-shadow: 0px 20px 40px #00000070;
     border: 1px solid #3b3b3b;
     padding: 10px 20px;
     border-radius: 100px;
+    display: flex;
     align-items: center;
     cursor: pointer;
 }
@@ -152,7 +153,7 @@ section{
     color: var(--text-color);
     margin-right: 25px;
 }
-.share i{
+.social i{
     display: inline-flex;
     align-items: center;
     justify-content: center;
@@ -205,7 +206,7 @@ section{
         transition: .2s;
     }
 }
-@media (max-width: 1370px){
+@media (max-width: 1020px){
     .navbar a{
         margin: 0 15px;
     }
@@ -255,6 +256,7 @@ section{
         right: 0;
         bottom: 0;
         left: 100;
+        display: flex;
         flex-direction: column;
         background: #2d2d2d;
         transition: all 0.4s ease-in-out;
@@ -295,46 +297,4 @@ section{
     100%{
         transform: translateY(0);
     }
-}
-/*header{
-    color: darkslategrey;
-    font-size: large;
-}
-section{
-    flex: auto;
-}
-nav>ul>li{
-    display: inline-flex;
-    flex-direction: row;
-    flex-basis: auto;
-    width: 24%;
-}
-h2{
-    padding-left: 10px;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    color: maroon;
-    background-color: gold;
-}
-p{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-#home{
-    color: lightblue;
-    background-color: darkgoldenrod;
-}
-#about{
-    color:skyblue;
-    background-color: teal;
-}
-#contact{
-    color: blue ;
-    background-color: blueviolet;
-}
-#services{
-    color:red;
-    background-color: blue;
-}
-footer{
-    background-color: lightslategrey;
-    color: blanchedalmond;
 }
